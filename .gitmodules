@@ -85,3 +85,6 @@
 [submodule "template-ruby"]
 	path = template-ruby
 	url = git@github.com:dorianmariecom/template-ruby.git
+[submodule "dorian-dir"]
+	path = dorian-dir
+	url = git@github.com:dorianmariecom/dorian-dir.git
