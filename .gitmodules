@@ -88,3 +88,6 @@
 [submodule "dorian-dir"]
 	path = dorian-dir
 	url = git@github.com:dorianmariecom/dorian-dir.git
+[submodule "jobs"]
+	path = jobs
+	url = git@github.com:dorianmariecom/jobs.git
