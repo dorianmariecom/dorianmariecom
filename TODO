@@ -1,6 +1,4 @@
 - [code] language
-  - mail
-    - Mail.send(reply_to: ...)
   - twitter
     - Twitter.search
     - Twitter.send
