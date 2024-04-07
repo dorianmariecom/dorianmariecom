@@ -1,5 +1,3 @@
-- misc
-  - [dorian-dir] arguments
 - [code] language
   - mail
     - Mail.send(reply_to: ...)
