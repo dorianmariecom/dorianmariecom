@@ -1,7 +1,6 @@
 - [code] language
-  - twitter
-    - Twitter.search
-    - Twitter.send
+  - x
+    - X.send
   - stripe
     - StripeAccount
     - Stripe::Webhook.event
