@@ -1,6 +1,4 @@
 - [code] language
-  - x
-    - X.send
   - stripe
     - StripeAccount
     - Stripe::Webhook.event
@@ -17,3 +15,6 @@
   - cron field
   - landing page
   - webhook interface
+  - remove name for programs
+  - improve program generation
+  - record prompts
