@@ -1,8 +1,6 @@
 - [code] interface
-  - cron field
   - landing page
   - webhook interface
-  - remove name for programs
   - improve program generation
   - record prompts
 - [code] language
