@@ -1,7 +1,3 @@
-- [code] send emails through SES for verified email addresses
-- [code] locations
-- [code] names
-- [code] time zones
 - [code] send sms from france / to france
 - [code] send whatsapp from france / to france
 - [code] send imessage from france / to france
