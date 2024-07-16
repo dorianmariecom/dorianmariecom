@@ -1,20 +1,17 @@
-- [code] interface
-  - twilio
-  - locations
-  - names
-  - time zones
-  - webhook interface
-  - improve program generation
-  - landing page
-- [code] language
-  - stripe
-    - StripeAccount
-    - Stripe::Webhook.event
-  - discord
-    - DiscordAccount
-    - Discord.send
-- french
-  - [code-ruby]
-  - [code]
-  - [template-ruby]
-  - [language-ruby]
+- [code] locations
+- [code] names
+- [code] time zones
+- [code] send sms from france / to france
+- [code] send whatsapp from france / to france
+- [code] send imessage from france / to france
+- [code] webhook interface
+- [code] use tests for program examples for openai
+- [code] landing page
+- [language-ruby] french
+- [template-ruby] french
+- [code-ruby] french
+- [code] french
+- [code] discord DiscordAccount
+- [code] discord Discord.send
+- [code] stripe StripeAccount
+- [code] stripe Stripe::Webhook.event
