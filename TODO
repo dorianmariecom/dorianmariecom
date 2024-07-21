@@ -1,33 +1,30 @@
-- [code] editing program resets schedule
-- [code] schedule all
-- [code] reschedule
-- [code] reschdule all
-- [code] auto-reschedule
-- [code] auto-reschedule all
-- [code] mail on program error
-- [code] flags phone numbers
-- [code] timeouts
-- [code] error pages
-- [code] create program as guest
-- [code] create prompt as guest
-- [code] registered-like interface as guest
-- [code] sidebar with sections
-- [code] recurring jobs in links
-- [code] job links to each section
-- [code] pagination per 10
-- [code] turbo morph
-
-- [code] send sms from france / to france
-- [code] send whatsapp from france / to france
-- [code] send imessage from france / to france
-- [code] webhook interface
-- [code] use tests for program examples for openai
-- [code] landing page
+- editing program resets schedule
+- schedule all
+- reschedule
+- reschdule all
+- auto-reschedule
+- auto-reschedule all
+- mail on program error
+- flags phone numbers
+- timeouts
+- error pages
+- create program as guest
+- create prompt as guest
+- registered-like interface as guest
+- recurring jobs in links
+- job links to each section
+- pagination per 10
+- send sms from france / to france
+- send whatsapp from france / to france
+- send imessage from france / to france
+- webhook interface
+- use tests for program examples for openai
+- landing page
 - [language-ruby] french
 - [template-ruby] french
 - [code-ruby] french
-- [code] french
-- [code] discord DiscordAccount
-- [code] discord Discord.send
-- [code] stripe StripeAccount
-- [code] stripe Stripe::Webhook.event
+- french
+- discord DiscordAccount
+- discord Discord.send
+- stripe StripeAccount
+- stripe Stripe::Webhook.event
