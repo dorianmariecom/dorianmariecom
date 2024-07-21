@@ -1,15 +1,12 @@
-- editing program resets schedule
+- flags phone numbers
 - schedule all
 - reschedule
 - reschdule all
 - auto-reschedule
 - auto-reschedule all
 - mail on program error
-- flags phone numbers
 - timeouts
 - error pages
-- create program as guest
-- create prompt as guest
 - registered-like interface as guest
 - recurring jobs in links
 - job links to each section
