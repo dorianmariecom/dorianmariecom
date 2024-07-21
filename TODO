@@ -1,4 +1,3 @@
-- flags phone numbers
 - schedule all
 - reschedule
 - reschdule all
@@ -8,8 +7,6 @@
 - timeouts
 - error pages
 - registered-like interface as guest
-- recurring jobs in links
-- job links to each section
 - pagination per 10
 - send sms from france / to france
 - send whatsapp from france / to france
