@@ -7,18 +7,38 @@
 - timeouts
 - error pages
 - registered-like interface as guest
-- pagination per 10
+
+---
+
 - send sms from france / to france
 - send whatsapp from france / to france
 - send imessage from france / to france
+
+---
+
 - webhook interface
+
+---
+
 - use tests for program examples for openai
+
+---
+
 - landing page
+
+---
+
 - [language-ruby] french
 - [template-ruby] french
 - [code-ruby] french
 - french
+
+---
+
 - discord DiscordAccount
 - discord Discord.send
+
+---
+
 - stripe StripeAccount
 - stripe Stripe::Webhook.event
