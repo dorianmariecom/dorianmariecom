@@ -1,12 +1,7 @@
-- schedule all
-- reschedule
-- reschdule all
-- auto-reschedule
-- auto-reschedule all
-- mail on program error
-- timeouts
-- error pages
 - registered-like interface as guest
+- error pages
+- timeouts
+- mail on program error
 
 ---
 
