@@ -94,3 +94,6 @@
 [submodule "dinguerie.dorianmarie.com"]
 	path = dinguerie.dorianmarie.com
 	url = git@github.com:dorianmariecom/dinguerie.dorianmarie.com.git
+[submodule "code-app"]
+	path = code-app
+	url = git@github.com:dorianmariecom/code-app.git
