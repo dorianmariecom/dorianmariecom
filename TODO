@@ -1,32 +1,36 @@
-- send sms from france / to france
-- send whatsapp from france / to france
-- send imessage from france / to france
+- [code-app] webview
+- [code-app] navbar
+- [code-app] menu
 
 ---
 
-- webhook interface
+- [code-app] notifications
 
 ---
 
-- use tests for program examples for openai
+- [code] webhook interface
 
 ---
 
-- landing page
+- [code] use tests for program examples for openai
+
+---
+
+- [code] landing page
 
 ---
 
 - [language-ruby] french
 - [template-ruby] french
 - [code-ruby] french
-- french
+- [code] french
 
 ---
 
-- discord DiscordAccount
-- discord Discord.send
+- [code] discord DiscordAccount
+- [code] discord Discord.send
 
 ---
 
-- stripe StripeAccount
-- stripe Stripe::Webhook.event
+- [code] stripe StripeAccount
+- [code] stripe Stripe::Webhook.event
