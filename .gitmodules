@@ -97,3 +97,9 @@
 [submodule "code-app"]
 	path = code-app
 	url = git@github.com:dorianmariecom/code-app.git
+[submodule "new-black-tab"]
+	path = new-black-tab
+	url = git@github.com:dorianmariecom/new-black-tab.git
+[submodule "new-white-tab"]
+	path = new-white-tab
+	url = git@github.com:dorianmariecom/new-white-tab.git
