@@ -1,17 +1,5 @@
-- [code-app] version
-- [code] menu
-
----
-
-- [code] codedorian.fr
-
----
-
-- [chat] save and delete
-
----
-
 - [code-app] notifications
+- [code] codedorian.fr
 
 ---
 
@@ -20,9 +8,6 @@
 ---
 
 - [code] use tests for program examples for openai
-
----
-
 - [code] landing page
 
 ---
