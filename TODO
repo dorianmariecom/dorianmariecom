@@ -1,11 +1,12 @@
-- [code] persist sessions
+- [code] documentation
+- [code] examples
+- [code] code-ruby tests as prompt/input/output
+- [code] documentation and examples in prompt / fine-tuning
 - [code-app] publish ios app
-  - After we entered a prompt and tapped on the "generate" button, the same text is displayed in the results. Please provide more information on the purpose of the app features
-  - Please provide more details on how the programming language is integrated into the app
-  - Who is the target audience of your app?
+
+---
+
 - [code] webhook interface
-- [code] use tests for program examples for openai
-- [code] landing page
 
 ---
 
