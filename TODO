@@ -1,14 +1,9 @@
-- [code] devices
-- [code-app] notifications
-- [code-app] external links
-- [code] x accounts refresh less agressive
-
----
-
+- [code] persist sessions
+- [code-app] publish ios app
+  - After we entered a prompt and tapped on the "generate" button, the same text is displayed in the results. Please provide more information on the purpose of the app features
+  - Please provide more details on how the programming language is integrated into the app
+  - Who is the target audience of your app?
 - [code] webhook interface
-
----
-
 - [code] use tests for program examples for openai
 - [code] landing page
 
@@ -28,3 +23,7 @@
 
 - [code] stripe StripeAccount
 - [code] stripe Stripe::Webhook.event
+
+---
+
+- [code-app] android app
