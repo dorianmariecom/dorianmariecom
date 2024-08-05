@@ -1,15 +1,12 @@
+- [code] steam discounts
 - [code] documentation
 - [code] examples
-- [code] code-ruby tests as prompt/input/output
-- [code] documentation and examples in prompt / fine-tuning
+- [code] fine-tuning
+
+---
+
 - [code-app] publish ios app
-
----
-
 - [code] webhook interface
-
----
-
 - [language-ruby] french
 - [template-ruby] french
 - [code-ruby] french
@@ -28,7 +25,3 @@
 ---
 
 - [code-app] android app
-
----
-
-- [code] if there a game with a discount, receive an email with discount on Steam
