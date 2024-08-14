@@ -1,4 +1,7 @@
-- [code] steam discounts
+- [code-ruby] `List#map!`
+- [code-ruby] `List#reject`
+- [code-ruby] `List#reject!`
+- [code-ruby] `List#any?`
 - [code] documentation
 - [code] examples
 - [code] fine-tuning
