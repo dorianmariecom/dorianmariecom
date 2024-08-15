@@ -1,7 +1,14 @@
-- [code-ruby] `List#map!`
-- [code-ruby] `List#reject`
-- [code-ruby] `List#reject!`
-- [code-ruby] `List#any?`
+- [dorian-csv-all]
+- [dorian-csv-merge]
+- [dorian-json-each]
+- [dorian-json-all]
+- [dorian-json-merge]
+- [dorian-yaml-each]
+- [dorian-yaml-all]
+- [dorian-yaml-merge]
+
+---
+
 - [code] documentation
 - [code] examples
 - [code] fine-tuning

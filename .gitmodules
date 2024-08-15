@@ -103,3 +103,6 @@
 [submodule "new-white-tab"]
 	path = new-white-tab
 	url = git@github.com:dorianmariecom/new-white-tab.git
+[submodule "dorian-csv-each"]
+	path = dorian-csv-each
+	url = git@github.com:dorianmariecom/dorian-csv-each.git
