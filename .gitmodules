@@ -106,3 +106,6 @@
 [submodule "dorian-csv-each"]
 	path = dorian-csv-each
 	url = git@github.com:dorianmariecom/dorian-csv-each.git
+[submodule "dorian-csv-all"]
+	path = dorian-csv-all
+	url = git@github.com:dorianmariecom/dorian-csv-all.git
