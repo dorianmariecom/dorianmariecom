@@ -118,3 +118,9 @@
 [submodule "dorian-write"]
 	path = dorian-write
 	url = git@github.com:dorianmariecom/dorian-write.git
+[submodule "dorian-csv-pluck"]
+	path = dorian-csv-pluck
+	url = git@github.com:dorianmariecom/dorian-csv-pluck.git
+[submodule "dorian-csv-map"]
+	path = dorian-csv-map
+	url = git@github.com:dorianmariecom/dorian-csv-map.git
