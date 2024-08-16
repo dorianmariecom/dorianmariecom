@@ -112,3 +112,9 @@
 [submodule "dorian-csv-merge"]
 	path = dorian-csv-merge
 	url = git@github.com:dorianmariecom/dorian-csv-merge.git
+[submodule "dorian-rename"]
+	path = dorian-rename
+	url = git@github.com:dorianmariecom/dorian-rename.git
+[submodule "dorian-write"]
+	path = dorian-write
+	url = git@github.com:dorianmariecom/dorian-write.git
