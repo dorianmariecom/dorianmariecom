@@ -109,3 +109,6 @@
 [submodule "dorian-csv-all"]
 	path = dorian-csv-all
 	url = git@github.com:dorianmariecom/dorian-csv-all.git
+[submodule "dorian-csv-merge"]
+	path = dorian-csv-merge
+	url = git@github.com:dorianmariecom/dorian-csv-merge.git
