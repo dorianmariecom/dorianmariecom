@@ -1,9 +1,7 @@
-- [dorian-json-each]
-- [dorian-json-all]
-- [dorian-json-merge]
-- [dorian-yaml-each]
-- [dorian-yaml-all]
-- [dorian-yaml-merge]
+- [dorian-rename]
+- [dorian-write]
+- [dorian-csv-pluck]
+- [dorian-csv-map]
 
 ---
 
