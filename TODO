@@ -1,7 +1,4 @@
-- [dorian-rename]
-- [dorian-write]
-- [dorian-csv-pluck]
-- [dorian-csv-map]
+- [dorian-commit]
 
 ---
 
