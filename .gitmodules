@@ -124,3 +124,6 @@
 [submodule "dorian-csv-map"]
 	path = dorian-csv-map
 	url = git@github.com:dorianmariecom/dorian-csv-map.git
+[submodule "dorian-commit"]
+	path = dorian-commit
+	url = git@github.com:dorianmariecom/dorian-commit.git
