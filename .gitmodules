@@ -133,3 +133,60 @@
 [submodule "dorian-chat"]
 	path = dorian-chat
 	url = git@github.com:dorianmariecom/dorian-chat.git
+[submodule "dorian-csv-uniq"]
+	path = dorian-csv-uniq
+	url = git@github.com:dorianmariecom/dorian-csv-uniq.git
+[submodule "dorian-json-all"]
+	path = dorian-json-all
+	url = git@github.com:dorianmariecom/dorian-json-all.git
+[submodule "dorian-json-compare"]
+	path = dorian-json-compare
+	url = git@github.com:dorianmariecom/dorian-json-compare.git
+[submodule "dorian-json-deep-each"]
+	path = dorian-json-deep-each
+	url = git@github.com:dorianmariecom/dorian-json-deep-each.git
+[submodule "dorian-json-deep-map"]
+	path = dorian-json-deep-map
+	url = git@github.com:dorianmariecom/dorian-json-deep-map.git
+[submodule "dorian-json-deep-pluck"]
+	path = dorian-json-deep-pluck
+	url = git@github.com:dorianmariecom/dorian-json-deep-pluck.git
+[submodule "dorian-json-each"]
+	path = dorian-json-each
+	url = git@github.com:dorianmariecom/dorian-json-each.git
+[submodule "dorian-json-map"]
+	path = dorian-json-map
+	url = git@github.com:dorianmariecom/dorian-json-map.git
+[submodule "dorian-json-pluck"]
+	path = dorian-json-pluck
+	url = git@github.com:dorianmariecom/dorian-json-pluck.git
+[submodule "dorian-json-read-write"]
+	path = dorian-json-read-write
+	url = git@github.com:dorianmariecom/dorian-json-read-write.git
+[submodule "dorian-json-uniq"]
+	path = dorian-json-uniq
+	url = git@github.com:dorianmariecom/dorian-json-uniq.git
+[submodule "dorian-yaml-all"]
+	path = dorian-yaml-all
+	url = git@github.com:dorianmariecom/dorian-yaml-all.git
+[submodule "dorian-yaml-deep-each"]
+	path = dorian-yaml-deep-each
+	url = git@github.com:dorianmariecom/dorian-yaml-deep-each.git
+[submodule "dorian-yaml-deep-map"]
+	path = dorian-yaml-deep-map
+	url = git@github.com:dorianmariecom/dorian-yaml-deep-map.git
+[submodule "dorian-yaml-deep-pluck"]
+	path = dorian-yaml-deep-pluck
+	url = git@github.com:dorianmariecom/dorian-yaml-deep-pluck.git
+[submodule "dorian-yaml-each"]
+	path = dorian-yaml-each
+	url = git@github.com:dorianmariecom/dorian-yaml-each.git
+[submodule "dorian-yaml-map"]
+	path = dorian-yaml-map
+	url = git@github.com:dorianmariecom/dorian-yaml-map.git
+[submodule "dorian-yaml-pluck"]
+	path = dorian-yaml-pluck
+	url = git@github.com:dorianmariecom/dorian-yaml-pluck.git
+[submodule "dorian-yaml-uniq"]
+	path = dorian-yaml-uniq
+	url = git@github.com:dorianmariecom/dorian-yaml-uniq.git
