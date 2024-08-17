@@ -127,3 +127,9 @@
 [submodule "dorian-commit"]
 	path = dorian-commit
 	url = git@github.com:dorianmariecom/dorian-commit.git
+[submodule "dorian-dir-and-self"]
+	path = dorian-dir-and-self
+	url = git@github.com:dorianmariecom/dorian-dir-and-self.git
+[submodule "dorian-chat"]
+	path = dorian-chat
+	url = git@github.com:dorianmariecom/dorian-chat.git
