@@ -190,3 +190,6 @@
 [submodule "dorian-yaml-uniq"]
 	path = dorian-yaml-uniq
 	url = git@github.com:dorianmariecom/dorian-yaml-uniq.git
+[submodule "dorian-sort-csv"]
+	path = dorian-sort-csv
+	url = git@github.com:dorianmariecom/dorian-sort-csv.git
