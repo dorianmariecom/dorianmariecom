@@ -9,6 +9,7 @@ dorian-json-map
 dorian-json-pluck
 dorian-json-read-write
 dorian-json-uniq
+dorian-sort-csv
 dorian-yaml-all
 dorian-yaml-deep-each
 dorian-yaml-deep-map
