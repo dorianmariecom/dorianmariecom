@@ -1,3 +1,25 @@
+dorian-csv-uniq
+dorian-json-all
+dorian-json-compare
+dorian-json-deep-each
+dorian-json-deep-map
+dorian-json-deep-pluck
+dorian-json-each
+dorian-json-map
+dorian-json-pluck
+dorian-json-read-write
+dorian-json-uniq
+dorian-yaml-all
+dorian-yaml-deep-each
+dorian-yaml-deep-map
+dorian-yaml-deep-pluck
+dorian-yaml-each
+dorian-yaml-map
+dorian-yaml-pluck
+dorian-yaml-uniq
+
+---
+
 - [code] documentation
 - [code] examples
 - [code] fine-tuning
