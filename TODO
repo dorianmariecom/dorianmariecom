@@ -1,3 +1,7 @@
+dorian-support
+
+---
+
 dorian-json-all
 dorian-json-compare
 dorian-json-deep-each
@@ -17,6 +21,12 @@ dorian-yaml-each
 dorian-yaml-map
 dorian-yaml-pluck
 dorian-yaml-uniq
+
+---
+
+dorian-after
+dorian-before
+dorian-between
 
 ---
 
