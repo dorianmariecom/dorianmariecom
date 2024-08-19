@@ -193,3 +193,6 @@
 [submodule "dorian-sort-csv"]
 	path = dorian-sort-csv
 	url = git@github.com:dorianmariecom/dorian-sort-csv.git
+[submodule "dorian-arguments"]
+	path = dorian-arguments
+	url = git@github.com:dorianmariecom/dorian-arguments.git
