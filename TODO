@@ -27,6 +27,19 @@ dorian-yaml-uniq
 dorian-after
 dorian-before
 dorian-between
+dorian-csv-after
+dorian-csv-before
+dorian-csv-between
+dorian-csv-tally
+dorian-json-after
+dorian-json-before
+dorian-json-between
+dorian-json-tally
+dorian-tally
+dorian-yaml-after
+dorian-yaml-before
+dorian-yaml-between
+dorian-yaml-tally
 
 ---
 
