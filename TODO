@@ -1,7 +1,3 @@
-dorian-arguments
-
----
-
 dorian-json-all
 dorian-json-compare
 dorian-json-deep-each
@@ -40,6 +36,7 @@ dorian-yaml-after
 dorian-yaml-before
 dorian-yaml-between
 dorian-yaml-tally
+dorian-upgrade
 
 ---
 
