@@ -58,19 +58,31 @@ dorian-between
 dorian-csv-after
 dorian-csv-before
 dorian-csv-between
+dorian-csv-reject
+dorian-csv-select
 dorian-csv-tally
+dorian-format
 dorian-json-after
 dorian-json-before
 dorian-json-between
+dorian-json-deep-reject
+dorian-json-deep-select
+dorian-json-reject
+dorian-json-select
 dorian-json-tally
+dorian-lint
+dorian-reject
+dorian-select
 dorian-tally
+dorian-upgrade
 dorian-yaml-after
 dorian-yaml-before
 dorian-yaml-between
+dorian-yaml-deep-reject
+dorian-yaml-deep-select
+dorian-yaml-reject
+dorian-yaml-select
 dorian-yaml-tally
-dorian-upgrade
-dorian-lint
-dorian-format
 
 ---
 
