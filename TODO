@@ -62,8 +62,12 @@ dorian-json-reject
 dorian-json-select
 dorian-json-tally
 dorian-lint
+dorian-puts
 dorian-reject
 dorian-select
+dorian-strip
+dorian-strip-all
+dorian-strip-each
 dorian-tally
 dorian-upgrade
 dorian-yaml-after
