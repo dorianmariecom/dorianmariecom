@@ -1,14 +1,5 @@
-dorian-anonymize-yaml
-dorian-arguments
-dorian-chat
-dorian-commit
-dorian-csv-all
-dorian-csv-each
-dorian-csv-map
-dorian-csv-merge
 dorian-csv-pluck
 dorian-csv-uniq
-dorian-dir
 dorian-dir-and-self
 dorian-dot
 dorian-each
@@ -47,7 +38,6 @@ dorian-yaml-map
 dorian-yaml-pluck
 dorian-yaml-read-write
 dorian-yaml-uniq
-language-ruby
 template-ruby
 
 ---
