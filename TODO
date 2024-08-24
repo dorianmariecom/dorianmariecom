@@ -8,11 +8,6 @@ dorian@dorianmarie.{fr,com}
 
 ---
 
-bump all versions to 1.0.0
-release all gems
-
----
-
 dorian-each with options
 dorian-parallel with options
 
