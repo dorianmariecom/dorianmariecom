@@ -1,12 +1,3 @@
-dorian-replace
-dorian-shuffle
-dorian-sort-csv
-dorian-sort-json
-dorian-sort-yaml
-dorian-times
-dorian-to_struct
-dorian-top
-dorian-write
 dorian-yaml-all
 dorian-yaml-compare
 dorian-yaml-deep-each
@@ -17,7 +8,6 @@ dorian-yaml-map
 dorian-yaml-pluck
 dorian-yaml-read-write
 dorian-yaml-uniq
-template-ruby
 
 ---
 
