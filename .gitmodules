@@ -196,3 +196,6 @@
 [submodule "dorian-arguments"]
 	path = dorian-arguments
 	url = git@github.com:dorianmariecom/dorian-arguments.git
+[submodule "dorian-eval"]
+	path = dorian-eval
+	url = git@github.com:dorianmariecom/dorian-eval.git
