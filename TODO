@@ -1,13 +1,42 @@
-dorian-yaml-all
-dorian-yaml-compare
-dorian-yaml-deep-each
-dorian-yaml-deep-map
-dorian-yaml-deep-pluck
-dorian-yaml-each
-dorian-yaml-map
-dorian-yaml-pluck
-dorian-yaml-read-write
-dorian-yaml-uniq
+company move
+invoice
+stop drops
+stop sleeping aids
+company taxes us
+company taxes fr
+dorian@dorianmarie.{fr,com}
+
+---
+
+bump all versions to 1.0.0
+release all gems
+
+---
+
+dorian-each with options
+dorian-parallel with options
+
+---
+
+remove dependencies from dorian-arguments
+
+---
+
+from_struct
+from_deep_truct
+changes *-map
+
+---
+
+--debug|-d BOOLEAN
+--stdout|-o BOOLEAN
+--stderr|-e BOOLEAN
+--progress|-p BOOLEAN
+--rails|-r BOOLEAN
+
+---
+
+dorian
 
 ---
 
@@ -18,9 +47,19 @@ dorian-csv-after
 dorian-csv-before
 dorian-csv-between
 dorian-csv-compare
+dorian-csv-deep-each
+dorian-csv-deep-map
+dorian-csv-deep-pluck
+dorian-csv-deep-reject
+dorian-csv-deep-select
 dorian-csv-reject
 dorian-csv-select
 dorian-csv-tally
+dorian-deep-each
+dorian-deep-map
+dorian-deep-pluck
+dorian-deep-reject
+dorian-deep-select
 dorian-format
 dorian-json-after
 dorian-json-before
@@ -31,13 +70,17 @@ dorian-json-reject
 dorian-json-select
 dorian-json-tally
 dorian-lint
+dorian-map
+dorian-pluck
 dorian-puts
+dorian-read-write
 dorian-reject
 dorian-select
 dorian-strip
 dorian-strip-all
 dorian-strip-each
 dorian-tally
+dorian-uniq
 dorian-upgrade
 dorian-yaml-after
 dorian-yaml-before
@@ -48,11 +91,19 @@ dorian-yaml-reject
 dorian-yaml-select
 dorian-yaml-tally
 
---debug|-d BOOLEAN
---stdout|-o BOOLEAN
---stderr|-e BOOLEAN
---progress|-p BOOLEAN
---rails|-r BOOLEAN
+---
+
+output as:
+- raw
+- ruby
+- json
+- yaml
+- csv
+- jsonl
+- rubyl
+- yamll?
+
+---
 
 USAGE
 README.md
