@@ -42,6 +42,7 @@ dorian-deep-pluck
 dorian-deep-reject
 dorian-deep-select
 dorian-format
+dorian-format-all
 dorian-json-after
 dorian-json-before
 dorian-json-between
@@ -52,6 +53,7 @@ dorian-json-select
 dorian-json-tally
 dorian-json-then
 dorian-lint
+dorian-lint-all
 dorian-map
 dorian-pluck
 dorian-puts
@@ -64,7 +66,10 @@ dorian-strip-each
 dorian-tally
 dorian-then
 dorian-uniq
+dorian-update
+dorian-update-all
 dorian-upgrade
+dorian-upgrade-all
 dorian-yaml-after
 dorian-yaml-before
 dorian-yaml-between
