@@ -1,20 +1,8 @@
 dorian@dorianmarie.{fr,com}
 
-remove dependencies from dorian-arguments
-
 ---
 
-from_struct
-from_deep_truct
-changes *-map
-
----
-
---debug|-d BOOLEAN
---stdout|-o BOOLEAN
---stderr|-e BOOLEAN
---progress|-p BOOLEAN
---rails|-r BOOLEAN
+migrate from yarn to npm
 
 ---
 
