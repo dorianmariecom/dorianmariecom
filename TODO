@@ -6,7 +6,23 @@ migrate from yarn to npm
 
 ---
 
+ci
+
+---
+
 dorian
+
+input/output as:
+- raw
+- ruby
+- json
+- yaml
+- csv
+- jsonl
+- rubyl
+- yamll?
+
+completions
 
 ---
 
@@ -60,18 +76,6 @@ dorian-yaml-deep-select
 dorian-yaml-reject
 dorian-yaml-select
 dorian-yaml-tally
-
----
-
-output as:
-- raw
-- ruby
-- json
-- yaml
-- csv
-- jsonl
-- rubyl
-- yamll?
 
 ---
 
