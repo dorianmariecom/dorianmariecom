@@ -1,6 +1,6 @@
 dorian@dorianmarie.{fr,com}
 
-ci
+rubocop
 
 coif1plus.fr
 dinguerie.dorianmarie.com
@@ -65,7 +65,10 @@ dotfiles
 language-ruby
 new-black-tab
 new-white-tab
-template-ruby
+
+---
+
+ci
 
 ---
 
