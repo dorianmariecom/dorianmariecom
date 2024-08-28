@@ -6,8 +6,6 @@
 
 [coif1plus.fr](https://github.com/dorianmariecom/coif1plus.fr)
 
-[dinguerie.dorianmarie.com](https://github.com/dorianmariecom/dinguerie.dorianmarie.com)
-
 [dorian](https://github.com/dorianmariecom/dorian)
 
 [dorian-all](https://github.com/dorianmariecom/dorian-all)
