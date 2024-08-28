@@ -1,25 +1,5 @@
 dorian@dorianmarie.{fr,com}
 
-rubocop
-
-dorian-commit
-dorian-csv-all
-dorian-csv-each
-dorian-csv-map
-dorian-csv-pluck
-dorian-csv-uniq
-dorian-json-all
-dorian-json-deep-each
-dorian-json-deep-map
-dorian-json-each
-dorian-json-map
-dorian-top
-dorian-yaml-all
-dorian-yaml-deep-each
-dorian-yaml-deep-map
-dorian-yaml-each
-dorian-yaml-map
-
 ---
 
 ci
