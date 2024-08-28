@@ -1,201 +1,198 @@
 [submodule "code"]
-	path = code
-	url = git@github.com:dorianmariecom/code.git
-[submodule "code-ruby"]
-	path = code-ruby
-	url = git@github.com:dorianmariecom/code-ruby.git
-[submodule "coif1plus.fr"]
-	path = coif1plus.fr
-	url = git@github.com:dorianmariecom/coif1plus.fr.git
-[submodule "dorian"]
-	path = dorian
-	url = git@github.com:dorianmariecom/dorian.git
-[submodule "dorian-all"]
-	path = dorian-all
-	url = git@github.com:dorianmariecom/dorian-all.git
-[submodule "dorian-anonymize"]
-	path = dorian-anonymize
-	url = git@github.com:dorianmariecom/dorian-anonymize.git
-[submodule "dorian-anonymize-json"]
-	path = dorian-anonymize-json
-	url = git@github.com:dorianmariecom/dorian-anonymize-json.git
-[submodule "dorian-anonymize-yaml"]
-	path = dorian-anonymize-yaml
-	url = git@github.com:dorianmariecom/dorian-anonymize-yaml.git
-[submodule "dorian-dot"]
-	path = dorian-dot
-	url = git@github.com:dorianmariecom/dorian-dot.git
-[submodule "dorian-each"]
-	path = dorian-each
-	url = git@github.com:dorianmariecom/dorian-each.git
-[submodule "dorian-git-ls-ruby-files"]
-	path = dorian-git-ls-ruby-files
-	url = git@github.com:dorianmariecom/dorian-git-ls-ruby-files.git
-[submodule "dorian-git-tree"]
-	path = dorian-git-tree
-	url = git@github.com:dorianmariecom/dorian-git-tree.git
-[submodule "dorian-parallel"]
-	path = dorian-parallel
-	url = git@github.com:dorianmariecom/dorian-parallel.git
-[submodule "dorian-pretty"]
-	path = dorian-pretty
-	url = git@github.com:dorianmariecom/dorian-pretty.git
-[submodule "dorian-release"]
-	path = dorian-release
-	url = git@github.com:dorianmariecom/dorian-release.git
-[submodule "dorian-replace"]
-	path = dorian-replace
-	url = git@github.com:dorianmariecom/dorian-replace.git
-[submodule "dorian-shuffle"]
-	path = dorian-shuffle
-	url = git@github.com:dorianmariecom/dorian-shuffle.git
-[submodule "dorian-sort-json"]
-	path = dorian-sort-json
-	url = git@github.com:dorianmariecom/dorian-sort-json.git
-[submodule "dorian-sort-yaml"]
-	path = dorian-sort-yaml
-	url = git@github.com:dorianmariecom/dorian-sort-yaml.git
-[submodule "dorian-times"]
-	path = dorian-times
-	url = git@github.com:dorianmariecom/dorian-times.git
-[submodule "dorian-to_struct"]
-	path = dorian-to_struct
-	url = git@github.com:dorianmariecom/dorian-to_struct.git
-[submodule "dorian-top"]
-	path = dorian-top
-	url = git@github.com:dorianmariecom/dorian-top.git
-[submodule "dorian-yaml-compare"]
-	path = dorian-yaml-compare
-	url = git@github.com:dorianmariecom/dorian-yaml-compare.git
-[submodule "dorian-yaml-read-write"]
-	path = dorian-yaml-read-write
-	url = git@github.com:dorianmariecom/dorian-yaml-read-write.git
-[submodule "dorianmarie.com"]
-	path = dorianmarie.com
-	url = git@github.com:dorianmariecom/dorianmarie.com.git
-[submodule "dorianmarie.fr"]
-	path = dorianmarie.fr
-	url = git@github.com:dorianmariecom/dorianmarie.fr.git
-[submodule "dotfiles"]
-	path = dotfiles
-	url = git@github.com:dorianmariecom/dotfiles.git
-[submodule "language-ruby"]
-	path = language-ruby
-	url = git@github.com:dorianmariecom/language-ruby.git
-[submodule "template-ruby"]
-	path = template-ruby
-	url = git@github.com:dorianmariecom/template-ruby.git
-[submodule "dorian-dir"]
-	path = dorian-dir
-	url = git@github.com:dorianmariecom/dorian-dir.git
-[submodule "jobs"]
-	path = jobs
-	url = git@github.com:dorianmariecom/jobs.git
-[submodule "dinguerie.dorianmarie.com"]
-	path = dinguerie.dorianmarie.com
-	url = git@github.com:dorianmariecom/dinguerie.dorianmarie.com.git
+  path = code
+  url = git@github.com:dorianmariecom/code.git
 [submodule "code-app"]
-	path = code-app
-	url = git@github.com:dorianmariecom/code-app.git
-[submodule "new-black-tab"]
-	path = new-black-tab
-	url = git@github.com:dorianmariecom/new-black-tab.git
-[submodule "new-white-tab"]
-	path = new-white-tab
-	url = git@github.com:dorianmariecom/new-white-tab.git
-[submodule "dorian-csv-each"]
-	path = dorian-csv-each
-	url = git@github.com:dorianmariecom/dorian-csv-each.git
-[submodule "dorian-csv-all"]
-	path = dorian-csv-all
-	url = git@github.com:dorianmariecom/dorian-csv-all.git
-[submodule "dorian-csv-merge"]
-	path = dorian-csv-merge
-	url = git@github.com:dorianmariecom/dorian-csv-merge.git
-[submodule "dorian-rename"]
-	path = dorian-rename
-	url = git@github.com:dorianmariecom/dorian-rename.git
-[submodule "dorian-write"]
-	path = dorian-write
-	url = git@github.com:dorianmariecom/dorian-write.git
-[submodule "dorian-csv-pluck"]
-	path = dorian-csv-pluck
-	url = git@github.com:dorianmariecom/dorian-csv-pluck.git
-[submodule "dorian-csv-map"]
-	path = dorian-csv-map
-	url = git@github.com:dorianmariecom/dorian-csv-map.git
-[submodule "dorian-commit"]
-	path = dorian-commit
-	url = git@github.com:dorianmariecom/dorian-commit.git
-[submodule "dorian-dir-and-self"]
-	path = dorian-dir-and-self
-	url = git@github.com:dorianmariecom/dorian-dir-and-self.git
-[submodule "dorian-chat"]
-	path = dorian-chat
-	url = git@github.com:dorianmariecom/dorian-chat.git
-[submodule "dorian-csv-uniq"]
-	path = dorian-csv-uniq
-	url = git@github.com:dorianmariecom/dorian-csv-uniq.git
-[submodule "dorian-json-all"]
-	path = dorian-json-all
-	url = git@github.com:dorianmariecom/dorian-json-all.git
-[submodule "dorian-json-compare"]
-	path = dorian-json-compare
-	url = git@github.com:dorianmariecom/dorian-json-compare.git
-[submodule "dorian-json-deep-each"]
-	path = dorian-json-deep-each
-	url = git@github.com:dorianmariecom/dorian-json-deep-each.git
-[submodule "dorian-json-deep-map"]
-	path = dorian-json-deep-map
-	url = git@github.com:dorianmariecom/dorian-json-deep-map.git
-[submodule "dorian-json-deep-pluck"]
-	path = dorian-json-deep-pluck
-	url = git@github.com:dorianmariecom/dorian-json-deep-pluck.git
-[submodule "dorian-json-each"]
-	path = dorian-json-each
-	url = git@github.com:dorianmariecom/dorian-json-each.git
-[submodule "dorian-json-map"]
-	path = dorian-json-map
-	url = git@github.com:dorianmariecom/dorian-json-map.git
-[submodule "dorian-json-pluck"]
-	path = dorian-json-pluck
-	url = git@github.com:dorianmariecom/dorian-json-pluck.git
-[submodule "dorian-json-read-write"]
-	path = dorian-json-read-write
-	url = git@github.com:dorianmariecom/dorian-json-read-write.git
-[submodule "dorian-json-uniq"]
-	path = dorian-json-uniq
-	url = git@github.com:dorianmariecom/dorian-json-uniq.git
-[submodule "dorian-yaml-all"]
-	path = dorian-yaml-all
-	url = git@github.com:dorianmariecom/dorian-yaml-all.git
-[submodule "dorian-yaml-deep-each"]
-	path = dorian-yaml-deep-each
-	url = git@github.com:dorianmariecom/dorian-yaml-deep-each.git
-[submodule "dorian-yaml-deep-map"]
-	path = dorian-yaml-deep-map
-	url = git@github.com:dorianmariecom/dorian-yaml-deep-map.git
-[submodule "dorian-yaml-deep-pluck"]
-	path = dorian-yaml-deep-pluck
-	url = git@github.com:dorianmariecom/dorian-yaml-deep-pluck.git
-[submodule "dorian-yaml-each"]
-	path = dorian-yaml-each
-	url = git@github.com:dorianmariecom/dorian-yaml-each.git
-[submodule "dorian-yaml-map"]
-	path = dorian-yaml-map
-	url = git@github.com:dorianmariecom/dorian-yaml-map.git
-[submodule "dorian-yaml-pluck"]
-	path = dorian-yaml-pluck
-	url = git@github.com:dorianmariecom/dorian-yaml-pluck.git
-[submodule "dorian-yaml-uniq"]
-	path = dorian-yaml-uniq
-	url = git@github.com:dorianmariecom/dorian-yaml-uniq.git
-[submodule "dorian-sort-csv"]
-	path = dorian-sort-csv
-	url = git@github.com:dorianmariecom/dorian-sort-csv.git
+  path = code-app
+  url = git@github.com:dorianmariecom/code-app.git
+[submodule "code-ruby"]
+  path = code-ruby
+  url = git@github.com:dorianmariecom/code-ruby.git
+[submodule "coif1plus.fr"]
+  path = coif1plus.fr
+  url = git@github.com:dorianmariecom/coif1plus.fr.git
+[submodule "dorian"]
+  path = dorian
+  url = git@github.com:dorianmariecom/dorian.git
+[submodule "dorian-all"]
+  path = dorian-all
+  url = git@github.com:dorianmariecom/dorian-all.git
+[submodule "dorian-anonymize"]
+  path = dorian-anonymize
+  url = git@github.com:dorianmariecom/dorian-anonymize.git
+[submodule "dorian-anonymize-json"]
+  path = dorian-anonymize-json
+  url = git@github.com:dorianmariecom/dorian-anonymize-json.git
+[submodule "dorian-anonymize-yaml"]
+  path = dorian-anonymize-yaml
+  url = git@github.com:dorianmariecom/dorian-anonymize-yaml.git
 [submodule "dorian-arguments"]
-	path = dorian-arguments
-	url = git@github.com:dorianmariecom/dorian-arguments.git
+  path = dorian-arguments
+  url = git@github.com:dorianmariecom/dorian-arguments.git
+[submodule "dorian-chat"]
+  path = dorian-chat
+  url = git@github.com:dorianmariecom/dorian-chat.git
+[submodule "dorian-commit"]
+  path = dorian-commit
+  url = git@github.com:dorianmariecom/dorian-commit.git
+[submodule "dorian-csv-all"]
+  path = dorian-csv-all
+  url = git@github.com:dorianmariecom/dorian-csv-all.git
+[submodule "dorian-csv-each"]
+  path = dorian-csv-each
+  url = git@github.com:dorianmariecom/dorian-csv-each.git
+[submodule "dorian-csv-map"]
+  path = dorian-csv-map
+  url = git@github.com:dorianmariecom/dorian-csv-map.git
+[submodule "dorian-csv-merge"]
+  path = dorian-csv-merge
+  url = git@github.com:dorianmariecom/dorian-csv-merge.git
+[submodule "dorian-csv-pluck"]
+  path = dorian-csv-pluck
+  url = git@github.com:dorianmariecom/dorian-csv-pluck.git
+[submodule "dorian-csv-uniq"]
+  path = dorian-csv-uniq
+  url = git@github.com:dorianmariecom/dorian-csv-uniq.git
+[submodule "dorian-dir"]
+  path = dorian-dir
+  url = git@github.com:dorianmariecom/dorian-dir.git
+[submodule "dorian-dir-and-self"]
+  path = dorian-dir-and-self
+  url = git@github.com:dorianmariecom/dorian-dir-and-self.git
+[submodule "dorian-dot"]
+  path = dorian-dot
+  url = git@github.com:dorianmariecom/dorian-dot.git
+[submodule "dorian-each"]
+  path = dorian-each
+  url = git@github.com:dorianmariecom/dorian-each.git
 [submodule "dorian-eval"]
-	path = dorian-eval
-	url = git@github.com:dorianmariecom/dorian-eval.git
+  path = dorian-eval
+  url = git@github.com:dorianmariecom/dorian-eval.git
+[submodule "dorian-git-ls-ruby-files"]
+  path = dorian-git-ls-ruby-files
+  url = git@github.com:dorianmariecom/dorian-git-ls-ruby-files.git
+[submodule "dorian-git-tree"]
+  path = dorian-git-tree
+  url = git@github.com:dorianmariecom/dorian-git-tree.git
+[submodule "dorian-json-all"]
+  path = dorian-json-all
+  url = git@github.com:dorianmariecom/dorian-json-all.git
+[submodule "dorian-json-compare"]
+  path = dorian-json-compare
+  url = git@github.com:dorianmariecom/dorian-json-compare.git
+[submodule "dorian-json-deep-each"]
+  path = dorian-json-deep-each
+  url = git@github.com:dorianmariecom/dorian-json-deep-each.git
+[submodule "dorian-json-deep-map"]
+  path = dorian-json-deep-map
+  url = git@github.com:dorianmariecom/dorian-json-deep-map.git
+[submodule "dorian-json-deep-pluck"]
+  path = dorian-json-deep-pluck
+  url = git@github.com:dorianmariecom/dorian-json-deep-pluck.git
+[submodule "dorian-json-each"]
+  path = dorian-json-each
+  url = git@github.com:dorianmariecom/dorian-json-each.git
+[submodule "dorian-json-map"]
+  path = dorian-json-map
+  url = git@github.com:dorianmariecom/dorian-json-map.git
+[submodule "dorian-json-pluck"]
+  path = dorian-json-pluck
+  url = git@github.com:dorianmariecom/dorian-json-pluck.git
+[submodule "dorian-json-read-write"]
+  path = dorian-json-read-write
+  url = git@github.com:dorianmariecom/dorian-json-read-write.git
+[submodule "dorian-json-uniq"]
+  path = dorian-json-uniq
+  url = git@github.com:dorianmariecom/dorian-json-uniq.git
+[submodule "dorian-parallel"]
+  path = dorian-parallel
+  url = git@github.com:dorianmariecom/dorian-parallel.git
+[submodule "dorian-pretty"]
+  path = dorian-pretty
+  url = git@github.com:dorianmariecom/dorian-pretty.git
+[submodule "dorian-release"]
+  path = dorian-release
+  url = git@github.com:dorianmariecom/dorian-release.git
+[submodule "dorian-rename"]
+  path = dorian-rename
+  url = git@github.com:dorianmariecom/dorian-rename.git
+[submodule "dorian-replace"]
+  path = dorian-replace
+  url = git@github.com:dorianmariecom/dorian-replace.git
+[submodule "dorian-shuffle"]
+  path = dorian-shuffle
+  url = git@github.com:dorianmariecom/dorian-shuffle.git
+[submodule "dorian-sort-csv"]
+  path = dorian-sort-csv
+  url = git@github.com:dorianmariecom/dorian-sort-csv.git
+[submodule "dorian-sort-json"]
+  path = dorian-sort-json
+  url = git@github.com:dorianmariecom/dorian-sort-json.git
+[submodule "dorian-sort-yaml"]
+  path = dorian-sort-yaml
+  url = git@github.com:dorianmariecom/dorian-sort-yaml.git
+[submodule "dorian-times"]
+  path = dorian-times
+  url = git@github.com:dorianmariecom/dorian-times.git
+[submodule "dorian-to_struct"]
+  path = dorian-to_struct
+  url = git@github.com:dorianmariecom/dorian-to_struct.git
+[submodule "dorian-top"]
+  path = dorian-top
+  url = git@github.com:dorianmariecom/dorian-top.git
+[submodule "dorian-write"]
+  path = dorian-write
+  url = git@github.com:dorianmariecom/dorian-write.git
+[submodule "dorian-yaml-all"]
+  path = dorian-yaml-all
+  url = git@github.com:dorianmariecom/dorian-yaml-all.git
+[submodule "dorian-yaml-compare"]
+  path = dorian-yaml-compare
+  url = git@github.com:dorianmariecom/dorian-yaml-compare.git
+[submodule "dorian-yaml-deep-each"]
+  path = dorian-yaml-deep-each
+  url = git@github.com:dorianmariecom/dorian-yaml-deep-each.git
+[submodule "dorian-yaml-deep-map"]
+  path = dorian-yaml-deep-map
+  url = git@github.com:dorianmariecom/dorian-yaml-deep-map.git
+[submodule "dorian-yaml-deep-pluck"]
+  path = dorian-yaml-deep-pluck
+  url = git@github.com:dorianmariecom/dorian-yaml-deep-pluck.git
+[submodule "dorian-yaml-each"]
+  path = dorian-yaml-each
+  url = git@github.com:dorianmariecom/dorian-yaml-each.git
+[submodule "dorian-yaml-map"]
+  path = dorian-yaml-map
+  url = git@github.com:dorianmariecom/dorian-yaml-map.git
+[submodule "dorian-yaml-pluck"]
+  path = dorian-yaml-pluck
+  url = git@github.com:dorianmariecom/dorian-yaml-pluck.git
+[submodule "dorian-yaml-read-write"]
+  path = dorian-yaml-read-write
+  url = git@github.com:dorianmariecom/dorian-yaml-read-write.git
+[submodule "dorian-yaml-uniq"]
+  path = dorian-yaml-uniq
+  url = git@github.com:dorianmariecom/dorian-yaml-uniq.git
+[submodule "dorianmarie.com"]
+  path = dorianmarie.com
+  url = git@github.com:dorianmariecom/dorianmarie.com.git
+[submodule "dorianmarie.fr"]
+  path = dorianmarie.fr
+  url = git@github.com:dorianmariecom/dorianmarie.fr.git
+[submodule "dotfiles"]
+  path = dotfiles
+  url = git@github.com:dorianmariecom/dotfiles.git
+[submodule "language-ruby"]
+  path = language-ruby
+  url = git@github.com:dorianmariecom/language-ruby.git
+[submodule "new-black-tab"]
+  path = new-black-tab
+  url = git@github.com:dorianmariecom/new-black-tab.git
+[submodule "new-white-tab"]
+  path = new-white-tab
+  url = git@github.com:dorianmariecom/new-white-tab.git
+[submodule "template-ruby"]
+  path = template-ruby
+  url = git@github.com:dorianmariecom/template-ruby.git
+[submodule "dorian-progress"]
+	path = dorian-progress
+	url = git@github.com:dorianmariecom/dorian-progress.git
