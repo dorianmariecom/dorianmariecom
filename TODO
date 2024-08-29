@@ -4,13 +4,9 @@ dorian@dorianmarie.{fr,com}
 
 ci
 
-dorian-release
-dorian-to_struct
-dorian-top
 dorian-yaml-all
 dorian-yaml-deep-each
 dorian-yaml-each
-language-ruby
 
 ---
 
