@@ -4,7 +4,6 @@ dorian@dorianmarie.{fr,com}
 
 ci
 
-dorian-all
 dorian-json-all
 dorian-json-deep-each
 dorian-json-each
@@ -80,6 +79,7 @@ dorian-select
 dorian-strip
 dorian-strip-all
 dorian-strip-each
+dorian-submodules
 dorian-table
 dorian-tally
 dorian-then
