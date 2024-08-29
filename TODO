@@ -36,6 +36,7 @@ dorian-csv-deep-reject
 dorian-csv-deep-select
 dorian-csv-reject
 dorian-csv-select
+dorian-csv-table
 dorian-csv-tally
 dorian-csv-then
 dorian-deep-each
@@ -52,6 +53,7 @@ dorian-json-deep-reject
 dorian-json-deep-select
 dorian-json-reject
 dorian-json-select
+dorian-json-table
 dorian-json-tally
 dorian-json-then
 dorian-lint
@@ -65,6 +67,7 @@ dorian-select
 dorian-strip
 dorian-strip-all
 dorian-strip-each
+dorian-table
 dorian-tally
 dorian-then
 dorian-uniq
@@ -79,6 +82,7 @@ dorian-yaml-deep-reject
 dorian-yaml-deep-select
 dorian-yaml-reject
 dorian-yaml-select
+dorian-yaml-table
 dorian-yaml-tally
 dorian-yaml-then
 
