@@ -4,6 +4,19 @@ dorian@dorianmarie.{fr,com}
 
 ci
 
+dorian-all
+dorian-json-all
+dorian-json-deep-each
+dorian-json-each
+dorian-parallel
+dorian-release
+dorian-to_struct
+dorian-top
+dorian-yaml-all
+dorian-yaml-deep-each
+dorian-yaml-each
+language-ruby
+
 ---
 
 dorian
