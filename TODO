@@ -4,10 +4,6 @@ dorian@dorianmarie.{fr,com}
 
 ci
 
-dorian-json-all
-dorian-json-deep-each
-dorian-json-each
-dorian-parallel
 dorian-release
 dorian-to_struct
 dorian-top
