@@ -2,94 +2,69 @@ dorian@dorianmarie.{fr,com}
 
 ---
 
-ci
-
-dorian-yaml-all
-dorian-yaml-deep-each
-dorian-yaml-each
-
----
-
 dorian
 
+commands:
+- after
+- all
+- anonymize
+- before
+- between
+- compare
+- each
+- lstrip
+- merge
+- pluck
+- puts
+- read-write
+- reject
+- rstrip
+- select
+- sort
+- strip
+- table
+- tally
+- then
+- uniq
+
+options:
+- colorize
+- fast
+- input
+- output
+- parallel
+- rails
+- stderr
+- stdout
+- write
+- deep
+- debug
+- progress
+- progress_format
+- version
+- help
+
 input/output as:
+- csv
+- json
+- jsonl
 - raw
 - ruby
-- json
-- yaml
-- csv
-- jsonl
 - rubyl
-- yamll?
+- yaml
+- yamll
+
+---
 
 completions
 
 ---
 
-dorian-after
-dorian-before
-dorian-between
-dorian-csv-after
-dorian-csv-before
-dorian-csv-between
-dorian-csv-compare
-dorian-csv-deep-each
-dorian-csv-deep-map
-dorian-csv-deep-pluck
-dorian-csv-deep-reject
-dorian-csv-deep-select
-dorian-csv-reject
-dorian-csv-select
-dorian-csv-table
-dorian-csv-tally
-dorian-csv-then
-dorian-deep-each
-dorian-deep-map
-dorian-deep-pluck
-dorian-deep-reject
-dorian-deep-select
 dorian-format
-dorian-format-all
-dorian-json-after
-dorian-json-before
-dorian-json-between
-dorian-json-deep-reject
-dorian-json-deep-select
-dorian-json-reject
-dorian-json-select
-dorian-json-table
-dorian-json-tally
-dorian-json-then
 dorian-lint
-dorian-lint-all
-dorian-map
-dorian-pluck
-dorian-puts
-dorian-read-write
-dorian-reject
-dorian-select
-dorian-strip
-dorian-strip-all
-dorian-strip-each
 dorian-submodules
-dorian-table
-dorian-tally
-dorian-then
-dorian-uniq
 dorian-update
-dorian-update-all
 dorian-upgrade
-dorian-upgrade-all
-dorian-yaml-after
-dorian-yaml-before
-dorian-yaml-between
-dorian-yaml-deep-reject
-dorian-yaml-deep-select
-dorian-yaml-reject
-dorian-yaml-select
-dorian-yaml-table
-dorian-yaml-tally
-dorian-yaml-then
 
 ---
 
