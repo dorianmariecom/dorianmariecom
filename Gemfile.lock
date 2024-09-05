@@ -87,7 +87,7 @@ GEM
     csv (3.3.0)
     date (3.3.4)
     diff-lcs (1.5.1)
-    dorian (2.2.0)
+    dorian (2.2.1)
       csv
       dorian-arguments
       dorian-eval
@@ -97,13 +97,13 @@ GEM
       json
       parallel
       yaml
-    dorian-arguments (1.2.0)
+    dorian-arguments (1.2.1)
       bigdecimal
-    dorian-eval (1.4.1)
+    dorian-eval (1.4.2)
       yaml
-    dorian-progress (1.1.0)
+    dorian-progress (1.1.1)
       ruby-progressbar
-    dorian-to_struct (2.0.0)
+    dorian-to_struct (2.0.1)
     drb (2.2.1)
     erubi (1.13.0)
     git (2.3.0)
@@ -285,7 +285,7 @@ DEPENDENCIES
   rubocop-rspec_rails
 
 RUBY VERSION
-   ruby 3.3.4p94
+   ruby 3.3.5p100
 
 BUNDLED WITH
    2.5.18
