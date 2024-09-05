@@ -4,55 +4,36 @@ dorian@dorianmarie.{fr,com}
 
 dorian
 
-commands:
-- after
-- all
-- anonymize
-- before
-- between
+- commit
 - compare
-- each
+- dir
+- dot
+- eval
+- ls
 - lstrip
 - merge
 - pluck
-- puts
-- read-write
-- reject
+- pretty
+- release
+- rename
+- replace
 - rstrip
-- select
+- shuffle
 - sort
 - strip
 - table
 - tally
 - then
+- times
+- top
+- tree
 - uniq
-
-options:
-- colorize
-- fast
-- input
-- output
-- parallel
-- rails
-- stderr
-- stdout
 - write
-- deep
-- debug
-- progress
-- progress_format
-- version
-- help
 
-input/output as:
-- csv
-- json
-- jsonl
-- raw
-- ruby
-- rubyl
-- yaml
-- yamll
+---
+
+- code
+- template
 
 ---
 
