@@ -194,5 +194,5 @@
   path = template-ruby
   url = git@github.com:dorianmariecom/template-ruby.git
 [submodule "dorian-progress"]
-	path = dorian-progress
-	url = git@github.com:dorianmariecom/dorian-progress.git
+  path = dorian-progress
+  url = git@github.com:dorianmariecom/dorian-progress.git
