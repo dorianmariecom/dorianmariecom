@@ -4,18 +4,17 @@ dorian@dorianmarie.{fr,com}
 
 dorian
 
-- ls
 - lstrip
+- rstrip
+- strip
 - merge
 - pluck
 - pretty
 - release
 - rename
 - replace
-- rstrip
 - shuffle
 - sort
-- strip
 - table
 - tally
 - then
