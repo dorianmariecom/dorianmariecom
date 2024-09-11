@@ -4,20 +4,20 @@ dorian@dorianmarie.{fr,com}
 
 dorian
 
-- pretty
-- release
+- shuffle
 - rename
 - replace
-- shuffle
 - sort
 - table
-- tally
 - then
 - times
-- top
-- tree
 - uniq
 - write
+
+- pretty
+- release
+- top
+- tree
 - format
 - lint
 - update
