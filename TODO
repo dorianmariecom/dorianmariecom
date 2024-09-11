@@ -4,11 +4,6 @@ dorian@dorianmarie.{fr,com}
 
 dorian
 
-- lstrip
-- rstrip
-- strip
-- merge
-- pluck
 - pretty
 - release
 - rename
