@@ -2,13 +2,44 @@ dorian@dorianmarie.{fr,com}
 
 ---
 
-dorian
-
-- pretty
 - format
+  - ruby: https://github.com/ruby-syntax-tree/syntax_tree
+  - js: https://github.com/prettier/prettier
+  - json: https://github.com/ruby-syntax-tree/syntax_tree-json
+  - csv: CSV.generate
+  - yaml: to_yaml
+  - xml: https://github.com/ruby-syntax-tree/syntax_tree-xml
+  - env: custom
+  - css: https://github.com/ruby-syntax-tree/syntax_tree-css
+  - html: https://github.com/prettier/prettier
+  - haml: https://github.com/ruby-syntax-tree/syntax_tree-haml
+  - slim: ???
+  - erb: https://github.com/davidwessman/syntax_tree-erb
+  - fish: ???
+  - sql: https://www.npmjs.com/package/prettier-plugin-sql
+  - tex: https://github.com/siefkenj/prettier-plugin-latex
+  - md: https://github.com/prettier/prettier
+  - jpg, png,ico, webp, heic: https://github.com/libvips/ruby-vips
+  - pdf: https://github.com/gettalong/hexapdf
+
 - lint
-- update
+  - ruby: https://github.com/rubocop/rubocop
+  - js
+  - css
+  - html
+  - slim
+  - erb
+  - fish
+  - sql
+  - tex
+  - md
+
 - upgrade
+  - ruby
+  - js
+  - pods
+
+- update: format; lint; upgrade; git add .; commit; git push
 
 ---
 
