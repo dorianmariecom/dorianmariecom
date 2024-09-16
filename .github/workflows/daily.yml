@@ -1,7 +1,4 @@
-name: daily
-'on':
-  schedule:
-    - cron: '0 0 * * *'
+---
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -11,4 +8,11 @@ jobs:
       with:
         bundler-cache: true
     - run: npm install --frozen-lockfile --immutable --ignore-engines
-    - run: dorian submodules --self | dorian each --parallel --fast=false --debug 'Dir.chdir(it) { system("npm upgrade; bundle update; bundle update --bundler; bin/importmap update 2>&1; bin/rubocop -A; dorian format; git add .; dorian commit 2>&1; git push 2>&1"); warn it }'
+    - run: dorian submodules --self | dorian each --parallel --fast=false --debug
+        'Dir.chdir(it) { system("npm upgrade; bundle update; bundle update --bundler;
+        bin/importmap update 2>&1; bin/rubocop -A; dorian format; git add .; dorian
+        commit 2>&1; git push 2>&1"); warn it }'
+name: daily
+'on':
+  schedule:
+  - cron: 0 0 * * *
