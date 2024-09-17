@@ -8,16 +8,16 @@ jobs:
       with:
         bundler-cache: true
     - uses: actions/setup-node@v4
-    - run: 'echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit'
+    - run: echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit
     - run: sudo apt-get update
     - run: sudo apt-get install -y shfmt texlive-extra-utils clang-format
     - run: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.48.2/ktlint
     - run: chmod +x ktlint
     - run: sudo mv ktlint /usr/local/bin/
-    - run: bin/dorian submodules --self | bin/dorian each --parallel --fast=false --debug
-        'Dir.chdir(it) { system("npm upgrade; bin/bundle update; bin/bundle update --bundler;
-        bin/importmap update; bin/rubocop -A; bin/dorian format; git add .; bin/dorian
-        commit; git push") }'
+    - run: bin/dorian submodules --self | bin/dorian each --parallel --fast=false
+        --debug 'Dir.chdir(it) { system("npm upgrade; bin/bundle update; bin/bundle
+        update --bundler; bin/importmap update; bin/rubocop -A; bin/dorian format;
+        git add .; bin/dorian commit; git push") }'
 name: daily
 'on':
   schedule:
