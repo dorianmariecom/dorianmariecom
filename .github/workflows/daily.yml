@@ -8,7 +8,7 @@ jobs:
       with:
         bundler-cache: true
     - uses: actions/setup-node@v4
-    - run: npm install npm@10.8.2 -g
+    - run: npm install -g npm@$(node -e "console.log(require('./package.json').engines.npm)")
     - run: npm --version
     - run: echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit
     - run: sudo apt-get update
