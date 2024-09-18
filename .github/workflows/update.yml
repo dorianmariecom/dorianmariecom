@@ -20,7 +20,7 @@ jobs:
         --debug 'Dir.chdir(it) { system("npm upgrade; bin/bundle update; bin/bundle
         update --bundler; bin/importmap update; bin/rubocop -A; bin/dorian format;
         git add .; bin/dorian commit; git push") }'
-name: daily
+name: update
 'on':
   push:
   schedule:
