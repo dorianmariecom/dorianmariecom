@@ -14,7 +14,7 @@ jobs:
     - run: bundle install
     - uses: actions/setup-node@v4
       with:
-        node-version-file: '.node-version'
+        node-version-file: ".node-version"
     - run: sudo npm install -g npm@$(node -e "console.log(require('./package.json').engines.npm)")
     - run: echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit
     - run: sudo apt-get update
@@ -23,9 +23,9 @@ jobs:
     - run: chmod +x ktlint
     - run: sudo mv ktlint /usr/local/bin/
     - run: bin/dorian submodules --self | bin/dorian each --parallel --fast=false
-        --debug 'Dir.chdir(it) { system("npm upgrade; bin/bundle
-        update --bundler; bin/bundle update; [ -f "/bin/importmap" ] && bin/importmap update; bin/rubocop -A; bin/dorian format;
-        git add .; bin/dorian commit; git push") }'
+        --debug 'Dir.chdir(it) { system("npm upgrade; bin/bundle update --bundler;
+        bin/bundle update; [ -f "/bin/importmap" ] && bin/importmap update; bin/rubocop
+        -A; bin/dorian format; git add .; bin/dorian commit; git push") }'
 name: update
 'on':
   push:
