@@ -24,7 +24,7 @@ jobs:
     - run: sudo mv ktlint /usr/local/bin/
     - run: bin/dorian submodules --self | bin/dorian each --parallel --fast=false
         --debug 'Dir.chdir(it) { system("npm upgrade; bin/bundle update --bundler;
-        bin/bundle update; [ -f "/bin/importmap" ] && bin/importmap update; bin/rubocop
+        bin/bundle update; [ -f /bin/importmap ] && bin/importmap update; bin/rubocop
         -A; bin/dorian format; git add .; bin/dorian commit; git push") }'
 name: update
 'on':
