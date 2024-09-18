@@ -3,6 +3,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+    - run: mkdir ~/.ssh
     - run: echo "${{ secrets.SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa.pub
     - run: echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
     - uses: actions/checkout@v4
