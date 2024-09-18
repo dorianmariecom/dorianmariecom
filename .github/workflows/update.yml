@@ -8,6 +8,8 @@ jobs:
       with:
         bundler-cache: true
     - uses: actions/setup-node@v4
+      with:
+        node-version-file: '.node-version'
     - run: sudo npm install -g npm@$(node -e "console.log(require('./package.json').engines.npm)")
     - run: npm --version
     - run: echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit
