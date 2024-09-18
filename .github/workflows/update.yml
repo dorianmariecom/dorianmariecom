@@ -4,6 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - run: git submodule update --init --recursive
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
@@ -11,7 +12,6 @@ jobs:
       with:
         node-version-file: '.node-version'
     - run: sudo npm install -g npm@$(node -e "console.log(require('./package.json').engines.npm)")
-    - run: npm --version
     - run: echo "${{ secrets.OPENAI_API_KEY }}" > ~/.commit
     - run: sudo apt-get update
     - run: sudo apt-get install -y shfmt texlive-extra-utils clang-format
