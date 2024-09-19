@@ -9,6 +9,8 @@ jobs:
     - run: chmod 600 ~/.ssh/id_rsa
     - uses: actions/checkout@v4
     - run: git submodule update --init --recursive
+    - run: git config --global user.email "dorian@dorianmarie.com"
+    - run: git config --global user.name "Dorian Marié"
     - uses: ruby/setup-ruby@v1
     - run: sudo gem install bundler
     - run: gem install bundler
