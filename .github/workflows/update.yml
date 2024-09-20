@@ -1,6 +1,7 @@
 ---
 permissions:
   contents: write
+  workflows: write
 jobs:
   update:
     runs-on: ubuntu-latest
