@@ -35,6 +35,4 @@ name: update
   schedule:
   - cron: 0 * * * *
   workflow_dispatch:
-permissions:
-  contents: write
-  workflows: write
+permissions: write-all
