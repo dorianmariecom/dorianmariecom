@@ -196,3 +196,6 @@
 [submodule "dorian-progress"]
   path = dorian-progress
   url = git@github.com:dorianmariecom/dorian-progress.git
+[submodule "vincent"]
+	path = vincent
+	url = git@github.com:dorianmariecom/vincent.git
