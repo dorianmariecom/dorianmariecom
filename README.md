@@ -125,3 +125,5 @@
 [new-white-tab](https://github.com/dorianmariecom/new-white-tab)
 
 [template-ruby](https://github.com/dorianmariecom/template-ruby)
+
+[vincent](https://github.com/dorianmariecom/vincent)
