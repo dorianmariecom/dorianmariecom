@@ -196,3 +196,9 @@
 [submodule "dorian-progress"]
   path = dorian-progress
   url = git@github.com:dorianmariecom/dorian-progress.git
+[submodule "code-android"]
+  path = code-android
+  url = git@github.com:dorianmariecom/code-android.git
+[submodule "code-ios"]
+  path = code-ios
+  url = git@github.com:dorianmariecom/code-ios.git

@@ -1,6 +1,3 @@
-- `code_` prefix for code objects
-- `to_code`, `to_deep_code`, `to_ruby`, `to_deep_ruby`
-- Json object
 - lint
   - ruby: https://github.com/rubocop/rubocop
   - js
@@ -27,10 +24,8 @@
 - [code] documentation
 - [code] examples
 - [code] fine-tuning
-- [code-app] publish ios app
 - [code] webhook interface
 - [language-ruby] french
 - [template-ruby] french
 - [code-ruby] french
 - [code] french
-- [code-app] android app
