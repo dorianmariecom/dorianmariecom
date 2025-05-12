@@ -89,7 +89,7 @@ GEM
     crass (1.0.6)
     csv (3.3.4)
     date (3.4.1)
-    diff-lcs (1.6.1)
+    diff-lcs (1.6.2)
     dorian (2.6.4)
       csv
       dorian-arguments
