@@ -1,8 +1,10 @@
-[code](https://github.com/dorianmariecom/code)
+[code-android](https://github.com/dorianmariecom/code-android)
 
-[code-app](https://github.com/dorianmariecom/code-app)
+[code-ios](https://github.com/dorianmariecom/code-ios)
 
 [code-ruby](https://github.com/dorianmariecom/code-ruby)
+
+[codedorian.com](https://github.com/dorianmariecom/codedorian.com)
 
 [coif1plus.fr](https://github.com/dorianmariecom/coif1plus.fr)
 
@@ -42,6 +44,8 @@
 
 [dorian-each](https://github.com/dorianmariecom/dorian-each)
 
+[dorian-eval](https://github.com/dorianmariecom/dorian-eval)
+
 [dorian-git-ls-ruby-files](https://github.com/dorianmariecom/dorian-git-ls-ruby-files)
 
 [dorian-git-tree](https://github.com/dorianmariecom/dorian-git-tree)
@@ -69,6 +73,8 @@
 [dorian-parallel](https://github.com/dorianmariecom/dorian-parallel)
 
 [dorian-pretty](https://github.com/dorianmariecom/dorian-pretty)
+
+[dorian-progress](https://github.com/dorianmariecom/dorian-progress)
 
 [dorian-release](https://github.com/dorianmariecom/dorian-release)
 
@@ -124,4 +130,11 @@
 
 [new-white-tab](https://github.com/dorianmariecom/new-white-tab)
 
+[query-ruby](https://github.com/dorianmariecom/query-ruby)
+
+[search_rails](https://github.com/dorianmariecom/search_rails)
+
 [template-ruby](https://github.com/dorianmariecom/template-ruby)
+
+[dorianmariecom](https://github.com/dorianmariecom/dorianmariecom)
+
