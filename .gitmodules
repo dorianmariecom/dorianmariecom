@@ -207,4 +207,4 @@
   url = git@github.com:dorianmariecom/query-ruby
 [submodule "search_rails"]
   path = search_rails
-  rl = git@github.com:dorianmariecom/search_railse
+  url = git@github.com:dorianmariecom/search_rails
