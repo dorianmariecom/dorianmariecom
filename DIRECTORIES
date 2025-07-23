@@ -64,5 +64,7 @@ dotfiles
 language-ruby
 new-black-tab
 new-white-tab
+query-ruby
+search_rails
 template-ruby
 .
