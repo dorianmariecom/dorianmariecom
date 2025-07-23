@@ -202,3 +202,9 @@
 [submodule "code-ios"]
   path = code-ios
   url = git@github.com:dorianmariecom/code-ios.git
+[submodule "query-ruby"]
+  path = query-ruby
+  url = git@github.com:dorianmariecom/query-ruby
+[submodule "search_rails"]
+  path = search_rails
+  rl = git@github.com:dorianmariecom/search_railse
