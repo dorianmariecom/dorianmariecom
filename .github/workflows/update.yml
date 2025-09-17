@@ -3,36 +3,36 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - run: mkdir ~/.ssh
-    - run: echo "${{ secrets.SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa.pub
-    - run: echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-    - run: chmod 600 ~/.ssh/id_rsa
-    - uses: actions/checkout@v4
-    - run: git submodule update --init --recursive
-    - run: git config --global user.email "dorian@dorianmarie.com"
-    - run: git config --global user.name "Dorian Marié"
-    - uses: ruby/setup-ruby@v1
-    - run: sudo gem install bundler
-    - run: gem install bundler
-    - run: bundle install
-    - uses: actions/setup-node@v4
-      with:
-        node-version-file: ".node-version"
-    - run: sudo npm install -g npm@$(cat .npm-version)
-    - run: echo "${{ secrets.OPEN_AI_API_KEY }}" > ~/.commit
-    - run: sudo apt-get update
-    - run: sudo apt-get install -y shfmt texlive-extra-utils clang-format build-essential libv8-dev
-    - run: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.48.2/ktlint
-    - run: chmod +x ktlint
-    - run: sudo mv ktlint /usr/local/bin/
-    - run: bin/dorian DIRECTORIES each --fast=false --debug 'Dir.chdir(it) { system("git
-        checkout main; git pull; npm upgrade; bin/bundle update --bundler; bin/bundle
-        update; [ -f /bin/importmap ] && bin/importmap update; bin/rubocop -A; bin/dorian
-        format; git add .; bin/dorian commit; git push") }'
+      - run: mkdir ~/.ssh
+      - run: echo "${{ secrets.SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa.pub
+      - run: echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+      - run: chmod 600 ~/.ssh/id_rsa
+      - uses: actions/checkout@v4
+      - run: git submodule update --init --recursive
+      - run: git config --global user.email "dorian@dorianmarie.com"
+      - run: git config --global user.name "Dorian Marié"
+      - uses: ruby/setup-ruby@v1
+      - run: gem install bundler
+      - run: bundle install
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".node-version"
+      - run: sudo npm install -g npm@$(cat .npm-version)
+      - run: echo "${{ secrets.OPEN_AI_API_KEY }}" > ~/.commit
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y shfmt texlive-extra-utils clang-format build-essential libv8-dev
+      - run: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.48.2/ktlint
+      - run: chmod +x ktlint
+      - run: sudo mv ktlint /usr/local/bin/
+      - run:
+          bin/dorian DIRECTORIES each --fast=false --debug 'Dir.chdir(it) { system("git
+          checkout main; git pull; npm upgrade; bin/bundle update --bundler; bin/bundle
+          update; [ -f /bin/importmap ] && bin/importmap update; bin/rubocop -A; bin/dorian
+          format; git add .; bin/dorian commit; git push") }'
 name: update
-'on':
+"on":
   push:
   schedule:
-  - cron: 0 * * * *
+    - cron: 0 * * * *
   workflow_dispatch:
 permissions: write-all
