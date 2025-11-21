@@ -7,7 +7,7 @@ jobs:
     - run: echo "${{ secrets.SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa.pub
     - run: echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
     - run: chmod 600 ~/.ssh/id_rsa
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - run: git submodule update --init --recursive
     - run: git config --global user.email "dorian@dorianmarie.com"
     - run: git config --global user.name "Dorian Marié"
