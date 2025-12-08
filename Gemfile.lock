@@ -132,7 +132,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    hexapdf (1.4.1)
+    hexapdf (1.5.0)
       cmdparse (~> 3.0, >= 3.0.3)
       geom2d (~> 0.4, >= 0.4.1)
       openssl (>= 2.2.1)
