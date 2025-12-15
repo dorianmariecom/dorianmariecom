@@ -118,7 +118,7 @@ GEM
       ruby-progressbar
     dorian-to_struct (2.0.2)
     drb (2.2.3)
-    erb (6.0.0)
+    erb (6.0.1)
     erubi (1.13.1)
     geom2d (0.4.1)
     git (4.0.6)
