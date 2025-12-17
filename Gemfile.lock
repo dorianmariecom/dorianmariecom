@@ -165,7 +165,8 @@ GEM
     mini_portile2 (2.8.9)
     mini_racer (0.19.1)
       libv8-node (~> 24.1.0.0)
-    minitest (5.27.0)
+    minitest (6.0.0)
+      prism (~> 1.5)
     net-imap (0.6.2)
       date
       net-protocol
@@ -327,7 +328,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
-    unicode-emoji (4.1.0)
+    unicode-emoji (4.2.0)
     uri (1.1.1)
     useragent (0.16.11)
     w_syntax_tree-erb (0.12.0)
