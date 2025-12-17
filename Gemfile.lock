@@ -305,7 +305,7 @@ GEM
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     stringio (3.2.0)
-    strscan (3.1.5)
+    strscan (3.1.6)
     syntax_tree (6.3.0)
       prettier_print (>= 1.2.0)
     syntax_tree-haml (4.0.3)
