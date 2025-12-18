@@ -194,7 +194,7 @@ GEM
       prettyprint
     prettier_print (1.2.1)
     prettyprint (0.2.0)
-    prism (1.6.0)
+    prism (1.7.0)
     process_executer (4.0.0)
       track_open_instances (~> 0.1)
     psych (5.3.1)
