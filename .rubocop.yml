@@ -5,7 +5,7 @@ AllCops:
   - "**/vendor/**/*"
   - "**/db/schema.rb"
   NewCops: enable
-  TargetRubyVersion: 3.4
+  TargetRubyVersion: 3.0
 Layout/ClosingHeredocIndentation:
   Enabled: false
 Layout/FirstArgumentIndentation:
@@ -24,11 +24,15 @@ Layout/MultilineOperationIndentation:
   Enabled: false
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
+Lint/ConstantDefinitionInBlock:
+  Enabled: false
 Lint/EmptyClass:
   Enabled: false
 Lint/MissingSuper:
   Enabled: false
 Lint/PercentStringArray:
+  Enabled: false
+Lint/SafeNavigationChain:
   Enabled: false
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
@@ -58,27 +62,15 @@ Naming/FileName:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
+Naming/PredicateMethod:
+  Enabled: false
 Naming/VariableNumber:
   Enabled: false
 Performance/Sum:
   Enabled: false
 Performance/UnfreezeString:
   Enabled: false
-RSpec/AnyInstance:
-  Enabled: false
-RSpec/ContextWording:
-  Enabled: false
-RSpec/DescribeClass:
-  Enabled: false
-RSpec/ExampleLength:
-  Enabled: false
-RSpec/ExampleWording:
-  Enabled: false
-RSpec/MultipleExpectations:
-  Enabled: false
-RSpec/NoExpectationExample:
-  Enabled: false
-RSpec/PendingWithoutReason:
+Rails/BulkChangeTable:
   Enabled: false
 Rails/Delegate:
   Enabled: false
@@ -93,6 +85,8 @@ Rails/Output:
 Rails/Presence:
   Enabled: false
 Rails/Present:
+  Enabled: false
+Rails/SkipsModelValidations:
   Enabled: false
 Rails/ThreeStateBooleanColumn:
   Enabled: false
@@ -109,6 +103,8 @@ Style/DoubleNegation:
 Style/EmptyMethod:
   Enabled: false
 Style/IfUnlessModifier:
+  Enabled: false
+Style/Lambda:
   Enabled: false
 Style/MultilineBlockChain:
   Enabled: false

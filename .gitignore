@@ -1,7 +1,6 @@
 .DS_Store
 *.gem
 /.bundle
-/.env
 /.env.*.local
 /.env.prod
 /.env.staging
@@ -18,7 +17,6 @@
 /tmp/pids
 /tmp/storage
 /vendor/bundle
-!/.env*.erb
 !/app/assets/builds/.keep
 !/db/.keep
 !/log/.keep

@@ -208,3 +208,9 @@
 [submodule "search_rails"]
   path = search_rails
   url = git@github.com:dorianmariecom/search_rails
+[submodule "code-vim"]
+  path = code-vim
+  url = git@github.com:dorianmariecom/code-vim.git
+[submodule "proxy.dorianmarie.com"]
+  path = proxy.dorianmarie.com
+  url = git@github.com:dorianmariecom/proxy.dorianmarie.com.git
