@@ -1,3 +1,101 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
+
+root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+tmpdir="$(mktemp -d)"
+
+trap 'rm -rf "$tmpdir"' EXIT
+
+failures=()
+readme_failures=()
+count=0
+
+while IFS= read -r gemspec; do
+  dir="$(dirname "$gemspec")"
+  name="$(basename "$dir")"
+  log="$tmpdir/$name.log"
+
+  count=$((count + 1))
+
+  printf '[%02d] %s ... ' "$count" "$name"
+
+  if (cd "$dir" && bin/test) >"$log" 2>&1; then
+    if grep -q "0 examples" "$log"; then
+      printf 'FAIL (empty)\n'
+
+      failures+=("$name:empty:$log")
+      continue
+    fi
+
+    printf 'PASS\n'
+  else
+    exit_code=$?
+
+    printf 'FAIL (%s)\n' "$exit_code"
+
+    failures+=("$name:$exit_code:$log")
+  fi
+done < <(find "$root" -maxdepth 2 -name "*.gemspec" -path "$root/dorian-*/*" | sort)
+
+printf '\nREADME checks ... '
+
+while IFS= read -r gemspec; do
+  dir="$(dirname "$gemspec")"
+  readme="$dir/README.md"
+  spec_file="$(basename "$gemspec")"
+  spec_info="$(cd "$dir" && ruby -e 'spec = Gem::Specification.load(ARGV[0]); puts spec.name; puts spec.executables' "$spec_file")"
+  gem_name="$(printf '%s\n' "$spec_info" | sed -n '1p')"
+  executables="$(printf '%s\n' "$spec_info" | sed -n '2,$p')"
+
+  if [ ! -f "$readme" ]; then
+    readme_failures+=("$gem_name: missing README.md")
+    continue
+  fi
+
+  grep -Fq "# \`$gem_name\`" "$readme" ||
+    readme_failures+=("$gem_name: README header does not match gem name")
+
+  grep -Fq "gem install $gem_name" "$readme" ||
+    readme_failures+=("$gem_name: README does not show install command")
+
+  grep -Fq "## Usage" "$readme" ||
+    readme_failures+=("$gem_name: README does not include usage")
+
+  while IFS= read -r executable; do
+    [ -z "$executable" ] && continue
+
+    grep -Fq "$executable" "$readme" ||
+      readme_failures+=(
+        "$gem_name: README does not mention executable $executable"
+      )
+  done <<<"$executables"
+done < <(find "$root" -maxdepth 2 -name "*.gemspec" -path "$root/dorian-*/*" | sort)
+
+if [ "${#readme_failures[@]}" -eq 0 ]; then
+  printf 'PASS\n'
+else
+  printf 'FAIL (%d)\n' "${#readme_failures[@]}"
+fi
+
+printf '\nSummary: %d gems, %d test failures, %d README failures\n' \
+  "$count" \
+  "${#failures[@]}" \
+  "${#readme_failures[@]}"
+
+if [ "${#failures[@]}" -eq 0 ] && [ "${#readme_failures[@]}" -eq 0 ]; then
+  exit 0
+fi
+
+for failure in "${failures[@]}"; do
+  IFS=: read -r name exit_code log <<<"$failure"
+
+  printf '\n===== %s (exit %s) =====\n' "$name" "$exit_code"
+  sed -n '1,280p' "$log"
+done
+
+for failure in "${readme_failures[@]}"; do
+  printf '\n===== README =====\n%s\n' "$failure"
+done
+
+exit 1

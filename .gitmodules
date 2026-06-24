@@ -1,9 +1,6 @@
 [submodule "codedorian.com"]
   path = codedorian.com
   url = git@github.com:dorianmariecom/codedorian.com.git
-[submodule "code-app"]
-  path = code-app
-  url = git@github.com:dorianmariecom/code-app.git
 [submodule "code-ruby"]
   path = code-ruby
   url = git@github.com:dorianmariecom/code-ruby.git
